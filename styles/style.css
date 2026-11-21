@@ -55,3 +55,43 @@ h1, h2, h3 {
 .nav-links a:hover {
     Color: #38bdf8;
 }
+
+.hero {
+    Min-height: 75vh;
+    Display: flex;
+    Flex-direction: column;
+    Justify-content: center;
+    Align-items: flex-start;
+}
+
+.hero h1 {
+    Font-size: 3rem;
+    Margin: 15px 0;
+}
+
+.hero h1 span {
+    Color: #38bdf8;
+}
+
+.hero h2 {
+    Margin-bottom: 15px;
+}
+
+.hero p {
+    Max-width: 550px;
+    Margin-bottom: 20px;
+}
+
+.welcome {
+    Color: #38bdf8;
+    Letter-spacing: 3px;
+}
+
+.btn {
+    Display: inline-block;
+    Background: #38bdf8;
+    Color: #0f172a;
+    Padding: 12px 25px;
+    Border-radius: 5px;
+    Font-weight: bold;
+}
