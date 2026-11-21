@@ -103,3 +103,16 @@ h1, h2, h3 {
 #about p {
     Max-width: 750px;
 }
+
+.skills-container {
+    Display: flex;
+    Flex-wrap: wrap;
+    Gap: 15px;
+}
+
+.skill {
+    Background: #1e293b;
+    Border: 1px solid #38bdf8;
+    Padding: 15px 25px;
+    Border-radius: 8px;
+}
