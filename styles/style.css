@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    padding: 80px 10%;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #38bdf8;
+}
