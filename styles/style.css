@@ -134,3 +134,28 @@ h1, h2, h3 {
     Color: #38bdf8;
     Margin-bottom: 12px;
 }
+
+#contact {
+    Background: #1e293b;
+}
+
+.social-links {
+    Display: flex;
+    Flex-wrap: wrap;
+    Gap: 15px;
+    Margin-top: 20px;
+}
+
+.social-links a {
+    Color: #38bdf8;
+}
+
+.social-links a:hover {
+    Text-decoration: underline;
+}
+
+Footer {
+    Text-align: center;
+    Padding: 25px;
+    Background: #020617;
+}
