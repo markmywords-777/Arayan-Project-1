@@ -116,3 +116,21 @@ h1, h2, h3 {
     Padding: 15px 25px;
     Border-radius: 8px;
 }
+
+.projects-container {
+    Display: grid;
+    Grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    Gap: 20px;
+}
+
+.project-card {
+    Background: #1e293b;
+    Padding: 25px;
+    Border-radius: 10px;
+    Border: 1px solid #334155;
+}
+
+.project-card h3 {
+    Color: #38bdf8;
+    Margin-bottom: 12px;
+}
