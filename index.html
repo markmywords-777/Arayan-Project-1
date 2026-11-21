@@ -1,189 +1,481 @@
-
 <!DOCTYPE html>
-<html lang=”en”>
+<html lang="en">
 <head>
-    <meta charset=”UTF-8”>
-    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Mark Angelo's personal portfolio website.">
+
     <title>Mark Angelo | Portfolio</title>
 
-    <!DOCTYPE html>
-<html lang=”en”>
-<head>
-    <meta charset=”UTF-8”>
-    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
-    <title>Mark Angelo | Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
 
-   <!DOCTYPE html>
-<html lang=”en”>
-<head>
-    <meta charset=”UTF-8”>
-    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
-    <title>Mark Angelo | Portfolio</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-<link rel=”stylesheet” href=”styles/style.css”>
-    
+    <!-- FONT AWESOME REAL SOCIAL MEDIA ICONS -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
+
+    <!-- ================= NAVIGATION ================= -->
 
     <header>
-    <nav class=”navbar”>
-        <h2 class=”logo”>Mark Angelo</h2>
+        <nav class="navbar">
 
-        <ul class=”nav-links”>
-            <li><a href=”#home”>Home</a></li>
-            <li><a href=”#about”>About</a></li>
-            <li><a href=”#skills”>Skills</a></li>
-            <li><a href=”#projects”>Projects</a></li>
-            <li><a href=”#contact”>Contact</a></li>
-        </ul>
-    </nav>
-</header> 
+            <a href="#home" class="logo">
+                Mark<span>.</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
 
     <main>
 
-       <section class=”hero” id=”home”>
-    <p class=”welcome”>WELCOME TO MY PORTFOLIO</p>
+        <!-- ================= HERO SECTION ================= -->
 
-    <h1>Hello, I’m <span>Mark Angelo</span></h1>
+        <section class="hero" id="home">
 
-    <h2>Future Web Developer</h2>
+            <div class="hero-content">
 
-    <p>
-        I am passionate about technology, creativity,
-        And learning how to build websites.
-    </p>
+                <p class="welcome">
+                    WELCOME TO MY PORTFOLIO
+                </p>
 
-    <a href=”#contact” class=”btn”>Contact Me</a>
-</section>
+                <h1>
+                    Hello, I'm <span>Mark Angelo</span>
+                </h1>
 
-        <section id=”about”>
-    <h2 class=”section-title”>About Me</h2>
+                <h2>Future Web Developer</h2>
 
-    <p>
-        Hello! My name is Mark Angelo. I am interested in
-        Web development and technology.
+                <p class="hero-description">
+                    I am passionate about technology, creativity,
+                    and learning how to build beautiful and
+                    responsive websites.
+                </p>
 
-        I enjoy learning new skills and exploring ways
-        To create useful and creative websites.
-    </p>
-</section>
+                <div class="hero-buttons">
 
-        <section id=”skills”>
-    <h2 class=”section-title”>My Skills</h2>
+                    <a href="#projects" class="btn">
+                        View My Work
+                    </a>
 
-    <div class=”skills-container”>
-        <div class=”skill”>HTML</div>
-        <div class=”skill”>CSS</div>
-        <div class=”skill”>Creativity</div>
-        <div class=”skill”>Problem Solving</div>
-        <div class=”skill”>Teamwork</div>
+                    <a href="#contact" class="btn btn-outline">
+                        Contact Me
+                    </a>
+
+                </div>
+
+
+                <!-- HERO SOCIAL ICONS -->
+
+                <div class="hero-socials">
+
+                    <a href="mailto:mrk.angz777@gmail.com"
+                       aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/share/19MZ524nHB/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/mrk.z_?knvt=ZGY1dXNqa3ZmcDk2"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.tiktok.com/@_markksz"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="TikTok">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROFILE IMAGE -->
+            <div class="hero-image">
+
+                <div class="profile-border">
+
+                    <!-- PASTE YOUR PROFILE IMAGE HERE: images/profile.jpg -->
+
+                    <img
+                        src="assets/PROFILE 1.jpg"
+                        alt="Mark Angelo profile picture"
+                        class="profile-img"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= ABOUT SECTION ================= -->
+
+        <section id="about" class="about section">
+
+            <div class="section-heading">
+
+                <p>GET TO KNOW ME</p>
+
+                <h2>About <span>Me</span></h2>
+
+            </div>
+
+
+            <div class="about-container">
+
+                <div class="about-image">
+
+                    <!-- PASTE YOUR ABOUT IMAGE HERE: images/about.jpg -->
+
+                    <img
+                        src="assets/777.jpg"
+                        alt="About Mark Angelo"
+                    >
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <h3>Who Am I?</h3>
+
+                    <p>
+                        Hello! My name is Mark Angelo. I am interested
+                        in web development and technology.
+                    </p>
+
+                    <p>
+                        I enjoy learning new skills, exploring
+                        creativity, and discovering ways to create
+                        useful and attractive websites.
+                    </p>
+
+                    <p>
+                        My goal is to become a skilled web developer
+                        and continuously improve my knowledge
+                        in the world of technology.
+                    </p>
+
+                    <a href="#contact" class="btn">
+                        Let's Connect
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= SKILLS SECTION ================= -->
+
+        <section id="skills" class="skills section">
+
+            <div class="section-heading">
+
+                <p>WHAT I CAN DO</p>
+
+                <h2>My <span>Skills</span></h2>
+
+            </div>
+
+
+            <div class="skills-container">
+
+                <div class="skill">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p>Website structure and content.</p>
+                </div>
+
+                <div class="skill">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p>Website styling and responsive layouts.</p>
+                </div>
+
+                <div class="skill">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h3>Creativity</h3>
+                    <p>Creating attractive and unique ideas.</p>
+                </div>
+
+                <div class="skill">
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>Problem Solving</h3>
+                    <p>Finding solutions to different challenges.</p>
+                </div>
+
+                <div class="skill">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>Teamwork</h3>
+                    <p>Working and collaborating with others.</p>
+                </div>
+
+                <div class="skill">
+                    <i class="fa-solid fa-book-open"></i>
+                    <h3>Learning</h3>
+                    <p>Continuously developing new skills.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+      <!-- ================= PROJECTS SECTION ================= -->
+
+<section id="projects" class="projects section">
+
+    <div class="section-heading">
+
+        <p>MY RECENT WORK</p>
+
+        <h2>My <span>Projects</span></h2>
+
     </div>
-</section>
-       <section id=”projects”>
-    <h2 class=”section-title”>My Projects</h2>
 
-    <div class=”projects-container”>
+    <div class="projects-container">
 
-        <div class=”project-card”>
-            <h3>Personal Portfolio</h3>
-            <p>
-                A personal website introducing myself
-                And showing my skills.
-            </p>
+        <!-- PROJECT 1 -->
+
+        <div class="project-card">
+
+            <div class="project-image">
+
+                <img
+                    src="assets/PORTFOLIO.jpg"
+                    alt="Personal Portfolio Website"
+                >
+
+            </div>
+
+            <div class="project-info">
+
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    My personal portfolio website showcasing
+                    my introduction, skills, background,
+                    and personal information.
+                </p>
+
+                <span class="project-tag">
+                    HTML & CSS
+                </span>
+
+            </div>
+
         </div>
 
-        <div class=”project-card”>
-            <h3>First HTML Project</h3>
-            <p>
-                A simple website created to practice
-                HTML structure.
-            </p>
+
+        <!-- PROJECT 2 -->
+
+        <div class="project-card">
+
+            <div class="project-image">
+
+                <img
+                    src="assets/ROBOTICS.jpg"
+                    alt="Robotics Activity Project"
+                >
+
+            </div>
+
+            <div class="project-info">
+
+                <h3>Robotics Activity</h3>
+
+                <p>
+                    A robotics activity involving teamwork,
+                    assembling electronic components,
+                    and developing a robotic project.
+                </p>
+
+                <span class="project-tag">
+                    Robotics
+                </span>
+
+            </div>
+
         </div>
 
-        <div class=”project-card”>
-            <h3>CSS Practice</h3>
-            <p>
-                A styling project where I practiced
-                Colors, layouts, and typography.
-            </p>
+
+        <!-- PROJECT 3 -->
+
+        <div class="project-card">
+
+            <div class="project-image">
+
+                <img
+                    src="assets/PROJECT.jpg"
+                    alt="Computer Laboratory System"
+                >
+
+            </div>
+
+            <div class="project-info">
+
+                <h3>Computer Laboratory System</h3>
+
+                <p>
+                    A computer laboratory login system
+                    designed to provide a login interface
+                    for authorized laboratory users.
+                </p>
+
+                <span class="project-tag">
+                    Web Development
+                </span>
+
+            </div>
+
         </div>
 
     </div>
+
 </section>
 
-       <section id=”contact”>
-    <h2 class=”section-title”>Contact Me</h2>
 
-    <p>You can reach me through the following platforms:</p>
+        <!-- ================= CONTACT SECTION ================= -->
 
-    <div class=”social-links”>
-        <a href=mailto:mrk.angz777@gmail.com>Email</a>
+        <section id="contact" class="contact section">
 
-        <a href=https://www.facebook.com/share/19MZ524nHB/
-           Target=”_blank” rel=”noopener noreferrer”>Facebook</a>
+            <div class="section-heading">
 
-        <a href=https://www.instagram.com/mrk.z_?knvt=ZGY1dXNqa3ZmcDk2
-           Target=”_blank” rel=”noopener noreferrer”>Instagram</a>
+                <p>LET'S TALK</p>
 
-        <a href=https://www.tiktok.com/@_markksz
-           Target=”_blank” rel=”noopener noreferrer”>TikTok</a>
-    </div>
-</section>
+                <h2>Contact <span>Me</span></h2>
 
+            </div>
+
+
+            <p class="contact-description">
+                Interested in connecting with me?
+                Feel free to reach out through my social media accounts.
+            </p>
+
+
+            <div class="social-links">
+
+
+                <!-- EMAIL -->
+
+                <a href="mailto:mrk.angz777@gmail.com"
+                   class="social-card">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <h3>Email</h3>
+
+                    <p>Send me an email</p>
+
+                </a>
+
+
+
+                <!-- FACEBOOK -->
+
+                <a href="https://www.facebook.com/share/19MZ524nHB/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="social-card">
+
+                    <i class="fa-brands fa-facebook-f"></i>
+
+                    <h3>Facebook</h3>
+
+                    <p>Connect with me</p>
+
+                </a>
+
+
+
+                <!-- INSTAGRAM -->
+
+                <a href="https://www.instagram.com/mrk.z_?knvt=ZGY1dXNqa3ZmcDk2"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="social-card">
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                    <h3>Instagram</h3>
+
+                    <p>Follow my account</p>
+
+                </a>
+
+
+
+                <!-- TIKTOK -->
+
+                <a href="https://www.tiktok.com/@_markksz"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="social-card">
+
+                    <i class="fa-brands fa-tiktok"></i>
+
+                    <h3>TikTok</h3>
+
+                    <p>Visit my profile</p>
+
+                </a>
+
+
+            </div>
+
+        </section>
 
     </main>
 
-   <footer>
-    <p>&copy; 2026 Mark Angelo. All Rights Reserved.</p>
-</footer>
-
-</body>
-</html>
 
 
-</head>
-<body>
+    <!-- ================= FOOTER ================= -->
 
-    <!—PASTE HERE: HEADER AND NAVIGATION 
+    <footer>
 
-    <main>
+        <p>
+            © 2026 Mark Angelo. All Rights Reserved.
+        </p>
 
-        <!—PASTE HERE: HERO SECTION 
+        <a href="#home" class="back-to-top">
+            Back to Top ↑
+        </a>
 
-        <!—PASTE HERE: ABOUT SECTION 
+    </footer>
 
-        <!—PASTE HERE: SKILLS SECTION 
-
-        <!—PASTE HERE: PROJECTS SECTION 
-
-        <!—PASTE HERE: CONTACT SECTION 
-
-    </main>
-
-    <!—PASTE HERE: FOOTER 
-
-</body>
-</html>
-</head>
-<body>
-
-    <!—PASTE HERE: HEADER AND NAVIGATION 
-
-    <main>
-
-        <!—PASTE HERE: HERO SECTION 
-
-        <!—PASTE HERE: ABOUT SECTION 
-
-        <!—PASTE HERE: SKILLS SECTION 
-
-        <!—PASTE HERE: PROJECTS SECTION 
-
-        <!—PASTE HERE: CONTACT SECTION 
-
-    </main>
-
-    <!—PASTE HERE: FOOTER 
 
 </body>
 </html>
