@@ -95,3 +95,11 @@ h1, h2, h3 {
     Border-radius: 5px;
     Font-weight: bold;
 }
+
+#about {
+    Background: #1e293b;
+}
+
+#about p {
+    Max-width: 750px;
+}
