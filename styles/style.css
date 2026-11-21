@@ -159,3 +159,34 @@ Footer {
     Padding: 25px;
     Background: #020617;
 }
+
+@media (max-width: 768px) {
+
+    .navbar {
+        Flex-direction: column;
+        Gap: 15px;
+    }
+
+    .nav-links {
+        Flex-wrap: wrap;
+        Justify-content: center;
+        Gap: 12px;
+    }
+
+    .hero {
+        Align-items: center;
+        Text-align: center;
+    }
+
+    .hero h1 {
+        Font-size: 2.2rem;
+    }
+
+    Section {
+        Padding: 60px 7%;
+    }
+
+    .social-links {
+        Justify-content: center;
+    }
+}
