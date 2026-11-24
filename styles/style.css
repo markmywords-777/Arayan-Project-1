@@ -15,6 +15,19 @@
     --border: #404040;
 }
 
+/* LIGHT MODE */
+[data-theme="light"] {
+    --background: #F8F7FC;
+    --secondary: #EFEBF5;
+    --card: #FFFFFF;
+    --accent: #9333EA;
+    --accent-light: #7E22CE;
+    --white: #25212B;
+    --muted: #66616D;
+    --border: #DCD6E5;
+}
+
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 90px;
@@ -57,7 +70,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: rgba(23, 23, 23, 0.95);
+   background: var(--background);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
 }
@@ -112,7 +125,46 @@ header {
 
 .nav-links a:hover::after {
     width: 100%;
+}/* THEME TOGGLE BUTTON */
+
+.theme-toggle {
+    width: 42px;
+    height: 42px;
+    border: 1px solid var(--accent);
+    border-radius: 50%;
+    background: var(--card);
+    color: var(--accent-light);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
+
+.theme-toggle:hover {
+    background: var(--accent);
+    color: white;
+    transform: rotate(20deg);
+}
+
+/* THEME TOGGLE BUTTON */
+
+.theme-toggle {
+    width: 42px;
+    height: 42px;
+    border: 1px solid var(--accent);
+    border-radius: 50%;
+    background: var(--card);
+    color: var(--accent-light);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.theme-toggle:hover {
+    background: var(--accent);
+    color: white;
+    transform: rotate(20deg);
+}
+
 
 
 /* =================================
@@ -556,7 +608,7 @@ header {
 ================================= */
 
 footer {
-    background: #111111;
+    background: var(--secondary);
     padding: 30px 10%;
     text-align: center;
     color: var(--muted);
